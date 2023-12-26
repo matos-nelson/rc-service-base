@@ -11,6 +11,13 @@
     <module>deployment</module>
     <module>runtime</module>
   </modules>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/matos-nelson/rc-service-base</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <compiler-plugin.version>3.11.0</compiler-plugin.version>
     <failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
