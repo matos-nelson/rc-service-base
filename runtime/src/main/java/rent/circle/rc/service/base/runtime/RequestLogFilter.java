@@ -30,7 +30,7 @@ class RequestLogFilter implements ContainerRequestFilter, ContainerResponseFilte
         }
 
         sb.setLength(500);
-        return sb.toString();
+        return sb.toString().trim();
     }
 
     @Override
