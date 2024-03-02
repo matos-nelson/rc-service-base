@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.rent.circle</groupId>
     <artifactId>rc-service-base-parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
   </parent>
   <artifactId>rc-service-base-deployment</artifactId>
   <name>Rc Service Base - Deployment</name>
@@ -26,10 +26,12 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache-deployment</artifactId>
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-mysql-deployment</artifactId>
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
